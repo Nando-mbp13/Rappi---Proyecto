@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Publicar Catálogo o Menú</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f8f9fa;">
+    <nav class="navbar navbar-expand-lg shadow-sm mb-4" style="background-color: #dc3727;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#">Rappi Aliado</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="border-color: white;">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" href="#" role="button" aria-expanded="false">
+                            Publicar Catálogo o Menú
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-medium" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gestionar Pedidos
+                        </a>
+                        <ul class="dropdown-menu shadow-sm" style="border: 1px solid #c2baaa;">
+                            <li><a class="dropdown-item text-secondary fw-medium" href="Enviar_Paquete.html">Consultar Pedidos</a></li>
+                            <li><a class="dropdown-item text-secondary fw-medium" href="Enviar_Paquete.html">Preparar Pedidos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="max-width: 400px;">
+        <div class="card shadow-sm p-4" style="border: 1px solid #c2baaa;">
+            <h5 style="color: #dc3727;" class="fw-bold text-center mb-4">Publicar Catálogo o Menú</h5>
+            <div class="mb-3">
+                <label class="form-label fw-bold">Aliado Comercial</label>
+                <input type="text" class="form-control form-control-lg" style="border-color: #ec9276;" placeholder="Nombre del aliado comercial">
+                <label class="form-label fw-bold mt-3">Tipo de Carga</label>
+                <select class="form-control form-control-lg" style="border-color: #ec9276;">
+                    <option value="" class="text-muted">Seleccionar tipo de carga</option>
+                    <option value="catalogo">Catálogo</option>
+                    <option value="menu">Menú</option>
+                </select>
+                <label class="form-label fw-bold mt-3">Foto</label>
+                <input type="file" class="form-control form-control-lg" style="border-color: #ec9276;">
+                <label class="form-label fw-bold mt-3">Descripción</label>
+                <textarea class="form-control form-control-lg" style="border-color: #ec9276;" rows="3"></textarea>
+            </div>
+            <button class="btn text-white fw-bold w-100" style="background-color: #dc3727;">Publicar</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
